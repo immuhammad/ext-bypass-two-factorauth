@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPStudios\Bypass2FA\Observer;
+namespace Conequate\Bypass2FA\Observer;
 
 use Magento\Authorization\Model\UserContextInterface;
 use Magento\Backend\Model\Auth\Session as AuthSession;
@@ -15,7 +15,7 @@ use Magento\TwoFactorAuth\Api\TfaSessionInterface;
 use Magento\TwoFactorAuth\Api\UserConfigRequestManagerInterface;
 use Magento\TwoFactorAuth\Model\UserConfig\HtmlAreaTokenVerifier;
 use Magento\TwoFactorAuth\Observer\ControllerActionPredispatch as TwoFAControllerActionPredispatch;
-use PHPStudios\Bypass2FA\Helper\Data;
+use Conequate\Bypass2FA\Helper\Data;
 
 class ControllerActionPredispatch extends TwoFAControllerActionPredispatch
 {

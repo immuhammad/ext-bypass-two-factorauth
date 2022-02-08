@@ -4,13 +4,13 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="PHPStudios_Core::menu">
-                    <resource id="PHPStudios_Bypass2FA::menu" title="PHPStudios Bypass 2FA Menu"/>
+                <resource id="Conequate_Core::menu">
+                    <resource id="Conequate_Bypass2FA::menu" title="Bypass 2FA Menu"/>
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="PHPStudios_Bypass2FA::config" title="PHPStudios Bypass 2FA"/>
+                            <resource id="Conequate_Bypass2FA::config" title="Bypass 2FA"/>
                         </resource>
                     </resource>
                 </resource>

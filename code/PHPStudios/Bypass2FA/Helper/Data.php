@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPStudios\Bypass2FA\Helper;
+namespace Conequate\Bypass2FA\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 

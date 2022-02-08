@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPStudios\Bypass2FA\Model;
+namespace Conequate\Bypass2FA\Model;
 
 use Magento\Framework\Exception\AuthenticationException;
 use Magento\Framework\Exception\InputException;
@@ -12,7 +12,7 @@ use Magento\TwoFactorAuth\Api\TfaInterface;
 use Magento\TwoFactorAuth\Api\UserConfigRequestManagerInterface;
 use Magento\TwoFactorAuth\Model\AdminAccessTokenService as MagentoAdminAccessTokenService;
 use Magento\User\Model\UserFactory;
-use PHPStudios\Bypass2FA\Helper\Data;
+use Conequate\Bypass2FA\Helper\Data;
 
 class AdminAccessTokenService extends MagentoAdminAccessTokenService
 {

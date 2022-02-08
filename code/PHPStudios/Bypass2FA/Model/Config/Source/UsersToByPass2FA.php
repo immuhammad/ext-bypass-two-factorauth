@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPStudios\Bypass2FA\Model\Config\Source;
+namespace Conequate\Bypass2FA\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\User\Model\ResourceModel\User\CollectionFactory;
