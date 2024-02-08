@@ -12,8 +12,6 @@
 
 - [Feature](#feature)
 - [Shared Package](#SharedPackage)
-- [Admin Configurations](#adminConfiguration)
-- [Key Features](#KeyFeatures)
 - [Installation](#installation)
 - [License](#license)
 
